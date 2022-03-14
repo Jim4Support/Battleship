@@ -1,10 +1,11 @@
 # Battleship
-package battleship;
 
+package battleship;
 import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main {
+
     Scanner scanner = new Scanner(System.in);
     String[][] field;
     String[][] field2;
@@ -14,7 +15,6 @@ public class Main {
     String[][] thirdField2;
     HashMap<String, Integer> map = new HashMap<>();
     String x = "";
-
     String s = "";
     String c = "";
     String sstr = "";
@@ -25,7 +25,7 @@ public class Main {
     short mark = 17;
     short mark2 = 17;
     boolean first = true;
-
+    
     public void Map() {
         HashMap<String, Integer> map = new HashMap<>();
         this.map = map;
